@@ -34,9 +34,6 @@ document.querySelector('.formcontato__form').addEventListener('submit', function
     } else if (mensaje.trim() === '') {
         alert('Por favor ingrese su mensaje.');
         event.preventDefault();
-    } else if (!regexCaracteres.test(mensaje)) {
-        alert('El campo de mensaje solo puede contener letras, espacios y guiones.');
-        event.preventDefault();
     } else {
         // Aquí envia el formulario si todas las validaciones pasan
     }
