@@ -435,7 +435,7 @@ section.footer {
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
-/*-------------------------------------------------------------------------------------------------------------Tabley Large*/
+/*-------------------------------------------------------------------------------------------------------------Tablet Large*/
 @media (max-width: 1200px) {
 
 .tudo {
